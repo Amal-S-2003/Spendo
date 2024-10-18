@@ -39,31 +39,30 @@
             </div>
             <div class="col-6 d-flex flex-column gap-3  my-5" id="R-form">
                 <div class="inp">
-                    <input type="text" placeholder="Username">
+                    <input type="text" placeholder="Username" id="rname">
                     <i class="fa-regular fa-user"></i>
                 </div>
                 <div class="inp">
-                    <input type="email" placeholder="Email">
-                    <i class="fa-regular fa-user"></i>
-                </div>
+                    <input type="email" placeholder="Email" id="remail">
+                    <i class="fa-solid fa-envelope"></i>                </div>
                 <div class="inp">
-                    <input type="password" placeholder="Password" id="pr">
+                    <input type="password" placeholder="Password" id="rpswd">
                     <i class="fa-solid fa-eye-slash"></i>
                 </div>
-                <button class="btn" >Register</button>
+                <button class="btn" onclick="addUser()">Register</button>
                 <p>Alreday have an  account? <button class="btn" onclick="goReg()">Login</button></p>
             </div>
 
             <div class="col-6 d-flex flex-column gap-3  my-5" id="L-form">
                 <div class="inp">
-                    <input type="text" placeholder="Username">
+                    <input type="text" placeholder="Username" id="lname">
                     <i class="fa-regular fa-user"></i>
                 </div>
                 <div class="inp">
-                    <input type="password" placeholder="Password" id="pl">
+                    <input type="password" placeholder="Password" id="lpswd">
                     <i class="fa-solid fa-eye-slash"></i>
                 </div>
-                <button class="btn">Login</button>
+                <button class="btn" onclick="login()">Login</button>
                 <p>Don't have an  account? <button class="btn" onclick="goLogin()">Register</button></p>
             </div>
             <div class="col-6 left my-5 d-flex" id="R-page">
