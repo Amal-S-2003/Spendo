@@ -28,26 +28,54 @@
      <!-- Login -->
       <section class="login">
         <div class="container">
-            <div class="row">
+            <div class="row" id="container">
 
-            <div class="col-6 left my-5">
-                <h1 class="animate__animated animate__fadeInDown animate__delay-1s animate__faster	">L</h1>
-                <h1 class="animate__animated animate__fadeInDown animate__delay-2s animate__faster	">O</h1>
-                <h1 class="animate__animated animate__fadeInDown animate__delay-3s animate__faster	">g</h1>
-                <h1 class="animate__animated animate__fadeInDown animate__delay-4s animate__faster	">i</h1>
-                <h1 class="animate__animated animate__fadeInDown animate__delay-5s animate__faster	">n</h1>
+            <div class="col-6 left my-5" id="L-page">
+                <h1>L</h1>
+                <h1>O</h1>
+                <h1>g</h1>
+                <h1>i</h1>
+                <h1>n</h1>
             </div>
-            <div class="col-6 d-flex flex-column gap-3  my-5">
+            <div class="col-6 d-flex flex-column gap-3  my-5" id="R-form">
                 <div class="inp">
                     <input type="text" placeholder="Username">
                     <i class="fa-regular fa-user"></i>
                 </div>
                 <div class="inp">
-                    <input type="password" placeholder="Password" id="">
+                    <input type="email" placeholder="Email">
+                    <i class="fa-regular fa-user"></i>
+                </div>
+                <div class="inp">
+                    <input type="password" placeholder="Password" id="pr">
+                    <i class="fa-solid fa-eye-slash"></i>
+                </div>
+                <button class="btn" >Register</button>
+                <p>Alreday have an  account? <button class="btn" onclick="goReg()">Login</button></p>
+            </div>
+
+            <div class="col-6 d-flex flex-column gap-3  my-5" id="L-form">
+                <div class="inp">
+                    <input type="text" placeholder="Username">
+                    <i class="fa-regular fa-user"></i>
+                </div>
+                <div class="inp">
+                    <input type="password" placeholder="Password" id="pl">
                     <i class="fa-solid fa-eye-slash"></i>
                 </div>
                 <button class="btn">Login</button>
-                <p>Don't have an  account? <a href="#reg">Register</a></p>
+                <p>Don't have an  account? <button class="btn" onclick="goLogin()">Register</button></p>
+            </div>
+            <div class="col-6 left my-5 d-flex" id="R-page">
+                <h1>R</h1>
+                <h1>E</h1>
+                <h1>G</h1> 
+                <h1>I</h1>
+                <h1>S</h1>
+                <h1>T</h1>
+                <h1>E</h1>
+                <h1>R</h1>
+            
             </div>
         </div>
 
